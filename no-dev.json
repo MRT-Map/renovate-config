@@ -6,5 +6,11 @@
     ":disableDependencyDashboard",
     "mergeConfidence:all-badges",
     ":prHourlyLimitNone"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["pin", "digest", "pinDigest"],
+      "automerge": true
+    }
   ]
 }
