@@ -10,8 +10,15 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["pin", "digest", "pinDigest"],
-      "automerge": true,
+      "automerge": true
+    },
+    {
+      "matchCategories": ["ci"],
+      "automerge": true
     }
   ],
-  "lockFileMaintenance": { "enabled": true, "automerge": true }
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  }
 }
