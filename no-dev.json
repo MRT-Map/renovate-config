@@ -97,6 +97,18 @@
       ],
       "datasourceTemplate": "github-tags",
       "packageNameTemplate": "jdx/hk"
+    },
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/(^|/)hk\\.pkl$/"
+      ],
+      "matchStrings": [
+        "(?:amends|import) \"package://github\\.com/iiiii7d/hk/releases/download/v(?<currentValue>.+?)/hk@(.+?)#/.*?\\.pkl\"",
+        "(?:amends|import) \"package://github\\.com/iiiii7d/hk/releases/download/v(.+?)/hk@(?<currentValue>.+?)#/.*?\\.pkl\""
+      ],
+      "datasourceTemplate": "github-tags",
+      "packageNameTemplate": "iiiii7d/hk"
     }
   ],
   "lockFileMaintenance": {
