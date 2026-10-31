@@ -69,7 +69,7 @@
       "groupName": "hatch-group"
     },
     {
-      "matchPackageNames": ["/\\bjdx\/mise\\b/"],
+      "matchPackageNames": ["/\\bjdx(?:code)?\/mise\\b/"],
       "schedule": ["* 0-3 * * 1"]
     },
   ],
