@@ -70,7 +70,8 @@
     },
     {
       "matchPackageNames": ["/\\bjdx(?:code)?\/mise\\b/"],
-      "schedule": ["* 0-3 * * 1"]
+      "schedule": ["* 0-3 * * 1"],
+      "groupName": "mise-group"
     },
   ],
   "customManagers": [
